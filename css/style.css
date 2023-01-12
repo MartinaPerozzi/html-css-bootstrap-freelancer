@@ -18,19 +18,17 @@ header nav li{
     padding-top:8rem;
     color:var(--white);
 }
-.jumbotron img{
-    width:13%;
+.avatar{
+    width:15%;
+    padding-bottom:1rem;
 }
 /* MAIN */
 main{
     text-align: center;
 }
 
-[class*=col-4]{
-    background-color: blueviolet;
-    height:300px;
-    background-color: aquamarine;
-    border-radius: 2rem;
+.box img{
+    border-radius: 0.5rem;
 }
 /* PORTFOLIO */
 #portfolio{
@@ -96,4 +94,15 @@ footer>.row{
     background-color: var(--blue);
     height:90px;
     font-size: 0.7rem;
+}
+@media screen and (min-width: 576px){
+
+    #portfolio>a {
+        display:none;
+    }
+}
+
+header a {
+    color:white;
+    text-decoration: none;
 }
