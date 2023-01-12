@@ -1,0 +1,13 @@
+/* Header */
+header{
+    height:80px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+header nav li{
+    display: inline;
+    padding-right:1rem;
+    cursor:pointer;
+    
+}
