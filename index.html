@@ -22,14 +22,14 @@
 <body>
 <!-- HEADER -->
 	<header class="container-fluid">
-		<div class="d-flex align-items-center justify-content-around pt-4">
-			<h3>START BOOTSTRAP</h3>
+		<div class="d-flex align-items-center justify-content-between justify-content-md-around pt-4">
+			<h4>START BOOTSTRAP</h4>
 			<nav>
 				<ul>
 					<li><a href="#portfolio"></a>PORTFOLIO</li>
 					<li><a href="#contact"></a>CONTACT</li>
 					<li><a href="#about"></a>ABOUT</li>
-					<li><i class="bi bi-list d-md-none"></i></li>
+					<li><i class="bi bi-list d-sm-none"></i></li>
 				</ul>
 			</nav>
 		</div>
@@ -51,6 +51,9 @@
 		<!-- PORTFOLIO -->
 		<section id="portfolio">
 			<h2>PORTFOLIO</h2>
+			<div class="star d-flex">
+				<i class="fa-solid fa-star"></i>
+			</div>
 			<div class="container">
 				<div class="row d-flex justify-content-center g-4">
 					<div class="col-md-6 col-lg-4">
@@ -95,32 +98,39 @@
 
 		<section id="about">
 			<h2>ABOUT</h2>
+			<div class="star d-flex">
+				<i class="fa-solid fa-star"></i>
+			</div>
 			<div class="container d-flex flex-column align-items-center">
 				<div class="row d-flex">
 					<div class="col p-sm-0 pe-sm-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rationera laborum cumque, libero beatae voluptates?Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, suscipit?</div>
 					<div class="col p-sm-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione voluptas atque a unde officiis fuga suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem nihil magnam placeat quia consequatur.
 					</div>
 				</div>
-				<div class="label"><a href="#">Download</a></div>
+				<div class="label"><a href="#"><i class="fa-solid fa-download"></i>Download</a></div>
 			</div>
 		</section>
 
 		<section id="contact">
 			<h2>CONTACT ME</h2>
+			<div class="star d-flex">
+				<i class="fa-solid fa-star"></i>
+			</div>
 			<div class="container">
 				<div class="form row d-flex flex-column justify-content-start">
-					<div>Name</div>
-					<div>Email Address</div>
-					<div>Phone Number</div>
-					<div>Message</div>
-					<div class="label-green"><a href="#">Send</a></div>
+					<input type="text" id="fname" name="firstname" placeholder="Name">
+					<input type="email" id="fname" name="firstname" placeholder="E-mail Address">
+					<input type="tel" id="fname" name="firstname" placeholder="Phone Number">
+					<input type="text" id="fname" name="firstname" placeholder="Message">
+					<div class="label-green">
+					<input class="label-green" type="submit" value="Send">
 				</div>
 			</div>
 		</section>
 	</main>
 
 	<footer class="container-fluid">
-		<div class="row d-flex">
+		<div class="row d-flex flex-column flex-md-row">
 
 			<div class="col">
 				<h5>LOCATION</h5>
@@ -130,10 +140,10 @@
 			<div class="col d-flex flex-column">
 				<h5>AROUND THE WEB</h5>
 				<div class="icons">
+					<i class="bi bi-facebook"></i>
+					<i class="bi bi-twitter"></i>
 					<i class="fa-brands fa-facebook"></i>
-					<i class="fa-brands fa-facebook"></i>
-					<i class="fa-brands fa-facebook"></i>
-					<i class="fa-brands fa-facebook"></i>
+					<i class="bi bi-linkedin"></i>
 
 				</div>
 			</div>
