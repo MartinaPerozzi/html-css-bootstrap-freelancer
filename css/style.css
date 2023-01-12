@@ -15,6 +15,11 @@ header a {
     color:white;
     text-decoration: none;
 }
+.bi-list{
+    font-size: 2rem;
+    border:1px solid #e9e9e9;
+    border-radius: 0.5rem;
+}
 
 /* JUMBOTRON */
 .jumbotron{
@@ -36,7 +41,7 @@ main{
 }
 /* PORTFOLIO */
 #portfolio{
-    padding-top:3rem;
+    padding-top:4rem;
     padding-bottom:5rem;
 }
 /* ABOUT */
@@ -47,7 +52,6 @@ main{
 }
 #about div{
     text-align: left;
-    padding:1rem 5rem;
 }
 .label>a{
     border:1px solid white;
@@ -59,15 +63,21 @@ main{
 .fa-download{
     padding-right:0.5rem;
 }
+#about .row{
+    padding-bottom: 3rem;
+}
+#about .container{
+    padding:2rem;
+}
 /* CONTACT*/
 #contact{
-    padding-top:3rem;
-
+    padding-top:4rem;
 }
 .form{
-    padding:3rem;
     text-align: left;
+    align-items: center;
 }
+
 .form>div:not(.label-green){
     border-bottom: 0.5px solid rgb(204, 204, 204);
     padding:0.5rem;
@@ -75,10 +85,10 @@ main{
 .form>input:nth-child(4){
     padding-bottom: 5rem;
     margin-bottom: 1rem;
-    border-bottom:1px solid grey;
+    border-bottom:1px solid #9a9a9a;
 }
 input{
-    border-bottom:1px solid grey;
+    border-bottom:1px solid #9a9a9a;
     border-top:none;
     border-left:none;
     border-right:none;
@@ -93,11 +103,14 @@ input[type="submit"]{
     border:none;
     cursor:pointer;
 }
+#contact .row>*{
+    padding-left:0;
 
+}
 /* FOOTER */
 footer{
     background-color: var(--lighterblue);
-    padding:3rem 3rem 0rem 3rem;
+    padding:3rem 0rem 0rem 0rem;
 }
 footer>.row{
     text-align: center;
@@ -105,12 +118,51 @@ footer>.row{
 }
 footer .icons{
     font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap:0.8rem;
 }
 
 .footer-copy{
     background-color: var(--blue);
     height:90px;
     font-size: 0.7rem;
+}
+
+.dot{
+    width:50px;
+    height:50px;
+    border:1px solid white;
+    border-radius: 50%;
+}
+
+/* DECORATIONS */
+.star:after,
+.star:before {
+    content: '';
+    width: 10%;
+    max-width: 150px;
+    height: 3.5px;
+    border-radius: 1rem;
+    display: inline-block;
+    background-color: var(--blue);
+}
+
+.star {
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-star {
+    padding: 2rem 1rem;
+}
+
+#about>.star:after,
+#about>.star:before,
+.jumbotron .star:before,
+.jumbotron .star:after {
+    background-color: white;
 }
 
 /* MEDIA QUERIES */
@@ -121,8 +173,15 @@ footer .icons{
     }
     
     .avatar{
-        width:40%;
+        width:45%;
     }
 
+}
+@media screen and (min-width:600px) and (max-width:1500px) {
+
+    .avatar {
+        width: 25%;
+        }
+ 
 }
 
