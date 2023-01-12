@@ -1,13 +1,80 @@
-/* Header */
+/* HEADER */
 header{
     height:80px;
     background-color: var(--blue);
     color: var(--white);
+    position: fixed;
 }
 
 header nav li{
     display: inline;
     padding-right:1rem;
-    cursor:pointer;
-    
+    cursor:pointer;   
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    background-color: var(--water-green);
+    padding-top:8rem;
+    color:var(--white);
+}
+.jumbotron img{
+    width:13%;
+}
+/* MAIN */
+main{
+    text-align: center;
+}
+
+[class*=col-4]{
+    background-color: blueviolet;
+    height:300px;
+    background-color: aquamarine;
+    border-radius: 2rem;
+}
+/* PORTFOLIO */
+#portfolio{
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+/* ABOUT */
+#about{
+    background-color: var(--water-green);
+    color: var(--white);
+    padding:3rem 0rem;
+}
+#about div{
+        text-align: left;
+        padding:1rem 3rem;
+}
+.label>a{
+    border:1px solid white;
+    border-radius: 0.5rem;
+    padding:0.5rem 1rem;
+    color:white;
+    text-decoration: none;
+}
+/* Contact */
+#contact{
+    padding-top:3rem;
+
+}
+.form{
+    padding:3rem;
+    text-align: left;
+}
+.form>div:not(.label-green){
+    border-bottom: 0.5px solid rgb(204, 204, 204);
+    padding:0.5rem;
+}
+.form>div:nth-child(4){
+    padding-bottom: 5rem;
+    margin-bottom: 1rem;
+}
+.label-green>a{
+    background-color: var(--water-green);
+    border-radius: 0.5rem;
+    padding:0.5rem 1rem;
+    color:var(--white);
+    text-decoration: none;
 }
