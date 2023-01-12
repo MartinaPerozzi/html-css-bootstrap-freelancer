@@ -78,3 +78,22 @@ main{
     color:var(--white);
     text-decoration: none;
 }
+
+/* FOOTER */
+footer{
+    background-color: var(--lighterblue);
+    padding:3rem 3rem 0rem 3rem;
+}
+footer>.row{
+    text-align: center;
+    color:var(--white);
+}
+.icons{
+    font-size: 2rem;
+}
+
+.footer-copy{
+    background-color: var(--blue);
+    height:90px;
+    font-size: 0.7rem;
+}
