@@ -75,7 +75,6 @@ main{
 }
 .form{
     text-align: left;
-    align-items: center;
 }
 
 .form>div:not(.label-green){
@@ -140,7 +139,7 @@ footer .icons{
 .star:after,
 .star:before {
     content: '';
-    width: 10%;
+    width: 15%;
     max-width: 150px;
     height: 3.5px;
     border-radius: 1rem;
@@ -163,6 +162,7 @@ footer .icons{
 .jumbotron .star:before,
 .jumbotron .star:after {
     background-color: white;
+    width:25%;
 }
 
 /* MEDIA QUERIES */
