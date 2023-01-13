@@ -16,25 +16,3 @@ img{
 h2{
     font-size: 2.5rem;
 }
-.star:after,
-.star:before{
-    content:'';
-    width:140px;
-    height:3.5px;
-    border-radius: 1rem;
-    display:inline-block;
-    background-color: var(--blue);
-}
-.star{
-    font-size: 2rem;
-    justify-content: center;
-    align-items: center;
-}
-.fa-star{
-    padding:2rem 2rem;
-}
-
-#about>.star:after,
-#about>.star:before{
-    background-color: white;
-}
