@@ -1,8 +1,7 @@
 /* HEADER */
 header {
-    height: 80px;
     background-color: var(--blue);
-    position: fixed;
+
 }
 
 header nav li {
@@ -17,6 +16,11 @@ header nav li {
 
 .burger {
     color: white;
+}
+
+.bg-h {
+    background-color: var(--blue);
+
 }
 
 /* JUMBOTRON */
@@ -208,3 +212,8 @@ footer .icons {
     }
 
 }
+
+/* test */
+/* .test {
+    background-color: black;
+} */
