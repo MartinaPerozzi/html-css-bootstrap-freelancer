@@ -22,17 +22,35 @@
 <body>
 <!-- HEADER -->
 	<header class="container-fluid">
-		<div class="d-flex align-items-center justify-content-between justify-content-md-around pt-4">
-			<h4>START BOOTSTRAP</h4>
-			<nav>
-				<ul>
-					<li><a href="#portfolio"></a>PORTFOLIO</li>
-					<li><a href="#contact"></a>CONTACT</li>
-					<li><a href="#about"></a>ABOUT</li>
-					<li><i class="bi bi-list d-sm-none"></i></li>
-				</ul>
+		
+
+			<nav class="navbar navbar-expand-lg">
+				<div class="container-fluid pt-3">
+					<a class="navbar-brand" href="#">START BOOTSTRAP</a>
+
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">PORTFOLIO</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">ABOUT</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">CONTACT</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</nav>
-		</div>
+
+
+		
 	</header>
 <!-- JUMBOTRON -->
 	<div class="jumbotron">
@@ -170,7 +188,7 @@
 				<p>2215 John Daniel Drive Clark, MO 54243</p>
 			</div>
 
-			<div class="col d-flex flex-column">
+			<div class="col d-flex flex-column p-3 p-md-0">
 				<h5>AROUND THE WEB</h5>
 				<div class="icons d-flex">
 					<div class="dot">
@@ -188,7 +206,7 @@
 				</div>
 			</div>
 
-			<div class="col d-flex flex-column">
+			<div class="col d-flex flex-column p-3 p-md-0">
 				<h5>ABOUT FREELANCER</h5>
 				<p>Freelance is a free to use, open source Bootstrap theme created by <em>Start Bootstrap</em>. </p>
 			</div>
