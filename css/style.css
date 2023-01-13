@@ -1,13 +1,7 @@
 /* HEADER */
-header {
-    background-color: var(--blue);
-
-}
-
-header nav li {
-    display: inline;
-    padding-right: 1rem;
-    cursor: pointer;
+.header {
+    position: fixed;
+    width: 100%;
 }
 
 .navbar a {
@@ -16,11 +10,11 @@ header nav li {
 
 .burger {
     color: white;
+    font-size: 1.6rem;
 }
 
 .bg-h {
     background-color: var(--blue);
-
 }
 
 /* JUMBOTRON */
@@ -83,21 +77,6 @@ form>div:not(.label-green) {
     padding: 0.5rem;
 }
 
-form>input:nth-child(4) {
-    padding-bottom: 5rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #9a9a9a;
-}
-
-input[type="submit"] {
-    background-color: var(--water-green);
-    border-radius: 0.5rem;
-    padding: 0.2rem 1rem;
-    color: var(--white);
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-}
 
 label {
     display: inline-block;
@@ -129,6 +108,17 @@ textarea:focus {
 /* BUTTON SEND */
 .label-green {
     padding-top: 2rem;
+    text-align: left;
+}
+
+input[type="submit"] {
+    background-color: var(--water-green);
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+    color: var(--white);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
 
 /* FOOTER */
@@ -202,7 +192,6 @@ footer .icons {
     .avatar {
         width: 45%;
     }
-
 }
 
 @media screen and (min-width:600px) and (max-width:1500px) {
@@ -210,7 +199,6 @@ footer .icons {
     .avatar {
         width: 25%;
     }
-
 }
 
 /* test */
