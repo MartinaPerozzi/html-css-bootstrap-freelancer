@@ -63,12 +63,8 @@ main{
 .fa-download{
     padding-right:0.5rem;
 }
-#about .row{
-    padding-bottom: 3rem;
-}
-#about .container{
-    padding:2rem;
-}
+
+
 /* CONTACT*/
 #contact{
     padding-top:4rem;
