@@ -86,10 +86,7 @@ form>input:nth-child(4){
     margin-bottom: 1rem;
     border-bottom:1px solid #9a9a9a;
 }
-input{
-    border:none;
-    padding:0.5rem;
-}
+
 input[type="submit"]{
     background-color: var(--water-green);
     border-radius: 0.5rem;
@@ -99,13 +96,34 @@ input[type="submit"]{
     border:none;
     cursor:pointer;
 }
+label{
+    display:inline-block;
+}
+
+input{
+    border: none;
+    flex-grow: 1;
+    padding-left:1rem;
+}
+
+input:focus{
+    outline:none;
+}
+textarea{
+    border:none;
+    resize:none;
+}
+textarea:focus{
+    outline:none;
+}
 #contact .row>*{
     padding-left:0;
-
 }
+/* BUTTON SEND */
 .label-green{
     padding-top:2rem;
 }
+
 /* FOOTER */
 footer{
     background-color: var(--lighterblue);
@@ -183,8 +201,4 @@ footer .icons{
         width: 25%;
         }
  
-}
-
-label{
-    display:inline-block;
 }
