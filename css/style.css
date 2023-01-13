@@ -73,24 +73,21 @@ main{
 #contact{
     padding-top:4rem;
 }
-.form{
+form{
     text-align: left;
 }
 
-.form>div:not(.label-green){
+form>div:not(.label-green){
     border-bottom: 0.5px solid rgb(204, 204, 204);
     padding:0.5rem;
 }
-.form>input:nth-child(4){
+form>input:nth-child(4){
     padding-bottom: 5rem;
     margin-bottom: 1rem;
     border-bottom:1px solid #9a9a9a;
 }
 input{
-    border-bottom:1px solid #9a9a9a;
-    border-top:none;
-    border-left:none;
-    border-right:none;
+    border:none;
     padding:0.5rem;
 }
 input[type="submit"]{
@@ -105,6 +102,9 @@ input[type="submit"]{
 #contact .row>*{
     padding-left:0;
 
+}
+.label-green{
+    padding-top:2rem;
 }
 /* FOOTER */
 footer{
@@ -185,3 +185,6 @@ footer .icons{
  
 }
 
+label{
+    display:inline-block;
+}

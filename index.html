@@ -129,11 +129,28 @@
 
 			<div class="container">
 
-				<form class="form d-flex flex-column justify-content-start p-3 p-md-5">
-					<input type="text" id="firstname" name="firstname" placeholder="Name">
-					<input type="email" id="email" name="email" placeholder="E-mail Address">
-					<input type="tel" id="number" name="number" placeholder="Phone Number">
-					<input type="text" id="message" name="message" placeholder="Message">
+				<form action="" method="GET" class="row flex-column justify-content-start p-3 pe-md-5 ps-md-5 pb-md-5">
+
+					<div class="col">
+						<label for="firstname"> Name</label>
+						<input type="text" id="firstname" name="firstname">
+					</div>
+
+					<div class="col">
+						<label for="email">E-mail Address</label>
+						<input type="email" id="email" name="email">
+					</div>
+
+					<div class="col">
+						<label for="number">Phone Number</label>
+						<input type="tel" id="number" name="number">
+					</div>
+
+					<div class="col">
+						<label for="message">Message</label>
+						<input type="text" id="message" name="message">
+					</div>
+
 					<div class="label-green">
 					<input class="label-green" type="submit" value="Send">
 					</div>
@@ -145,6 +162,7 @@
 	</main>
 <!-- FOOTER -->
 	<footer class="container-fluid">
+
 		<div class="row flex-column flex-md-row">
 
 			<div class="col">
@@ -176,8 +194,8 @@
 			</div>
 
 			<div class="footer-copy d-flex align-items-center justify-content-center mt-5">Copyright</div>
-		</div>
 
+		</div>
 
 	</footer>
 
