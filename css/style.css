@@ -8,6 +8,11 @@
     color: white;
 }
 
+.navbar a:hover,
+.burger:hover {
+    color: var(--water-green);
+}
+
 .burger {
     color: white;
     font-size: 1.6rem;
@@ -133,10 +138,11 @@ footer>.row {
 }
 
 footer .icons {
-    font-size: 2rem;
+    font-size: 1.5rem;
     align-items: center;
     justify-content: center;
     gap: 0.8rem;
+    cursor: pointer;
 }
 
 .footer-copy {
@@ -199,4 +205,8 @@ footer .icons {
     .avatar {
         width: 25%;
     }
+}
+
+footer .row {
+    gap: 1rem;
 }

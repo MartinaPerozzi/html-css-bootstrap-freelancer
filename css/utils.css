@@ -10,6 +10,19 @@ img {
     max-width: 100%;
 }
 
+/* Text */
+p {
+    font-size: 0.9rem;
+}
+
 h2 {
     font-size: 2.5rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+em {
+    color: var(--water-green);
 }
